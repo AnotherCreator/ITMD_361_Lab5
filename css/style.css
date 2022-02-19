@@ -1,5 +1,11 @@
 body {
-background-color: powderblue}
+    background-image: url("/assets/images/space.png");
+    color: white;
+}
+
+a {
+    color: white;
+}
 
 #title {
     text-align: center;
@@ -11,7 +17,7 @@ background-color: powderblue}
 }
 
 .planetImgColumn {
-    display: inline-block;
+    display: inline-block; /* Display images side-by-side */
 }
 
 img { /* Planet images */
@@ -27,6 +33,11 @@ img { /* Planet images */
     margin-right: auto;
 }
 
+.planetVals {
+    padding: 10px;
+    text-align: center;
+}
+
 .power { /* Superscript values */
     vertical-align: super;
 }
@@ -38,9 +49,13 @@ img { /* Planet images */
     text-align: center;
 }
 
-.planetVals { /* Planet category description */
+.planetCatg { /* Planet category description */
     border-style: solid;
     border-width: 1px;
-    padding: 5px;
+    padding: 10px;
     text-align: right;
+}
+
+#hyperlinks {
+    text-align: center;
 }
