@@ -1,6 +1,12 @@
+@font-face {
+    font-family: candyBeans;
+    src: url(/assets/fonts/candy_beans/candy_beans.otf);
+}
+
 body {
     background-image: url("/assets/images/space.png");
     color: white;
+    font-family: candyBeans, serif;
 }
 
 a {
