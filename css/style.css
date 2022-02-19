@@ -13,10 +13,15 @@ a {
     color: white;
 }
 
+.power { /* Superscript values */
+    vertical-align: super;
+}
+
 #title {
     text-align: center;
 }
 
+/* PLANET IMAGES STYLING */
 .planetImgRow {
     padding-bottom: 20px;
     text-align: center;
@@ -33,6 +38,7 @@ img { /* Planet images */
     margin-right: auto;
 }
 
+/* TABLE STYLING */
 .planetTable {
     border-spacing: 10px;
     margin-left: auto;
@@ -42,10 +48,6 @@ img { /* Planet images */
 .planetVals {
     padding: 10px;
     text-align: center;
-}
-
-.power { /* Superscript values */
-    vertical-align: super;
 }
 
 .planets { /* Planet names in table */
@@ -62,6 +64,39 @@ img { /* Planet images */
     text-align: right;
 }
 
+.planetTable:hover .jupiter {
+    background-color: crimson;
+}
+
+.planetTable:hover .jupiterVal {
+    background-color: crimson;
+}
+
+.planetTable:hover .saturn {
+    background-color: orange;
+}
+
+.planetTable:hover .saturnVal {
+    background-color: orange;
+}
+
+.planetTable:hover .uranus {
+    background-color: cornflowerblue;
+}
+
+.planetTable:hover .uranusVal {
+    background-color: cornflowerblue;
+}
+
+.planetTable:hover .neptune {
+    background-color: mediumpurple;
+}
+
+.planetTable:hover .neptuneVal {
+    background-color: mediumpurple;
+}
+
+/* HYPERLINK STYLING */
 #hyperlinks {
     text-align: center;
 }
