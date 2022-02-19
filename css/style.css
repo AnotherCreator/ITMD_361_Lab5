@@ -1,5 +1,5 @@
 @font-face {
-    font-family: candyBeans;
+    font-family: candyBeans !important;
     src: url("../assets/fonts/candy_beans/candy_beans.otf");
 }
 
