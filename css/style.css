@@ -74,11 +74,11 @@ img { /* Planet images */
 }
 
 .planetTable:hover .saturn {
-    background-color: orange;
+    background-color: darkorange;
 }
 
 .planetTable:hover .saturnVal {
-    background-color: orange;
+    background-color: darkorange;
 }
 
 .planetTable:hover .uranus {
