@@ -3,15 +3,11 @@
     src: url(../assets/fonts/candy_beans/candy_beans.otf);
 }
 
-body {
+body { /* Text body */
     display: block;
     background-image: url("../assets/images/space.png");
     color: white;
     font-family: candyBeans, serif;
-}
-
-a {
-    color: white;
 }
 
 .power { /* Superscript values */
@@ -124,7 +120,12 @@ img { /* Planet images */
 #revPeriod:hover .revPeriod {
     background-color: green;
 }
+
 /* HYPERLINK STYLING */
+a {
+    color: white;
+}
+
 #hyperlinks {
     text-align: center;
 }
