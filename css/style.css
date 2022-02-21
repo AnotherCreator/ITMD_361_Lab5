@@ -1,6 +1,6 @@
 @font-face {
-    font-family: candyBeans !important;
-    src: url(/assets/fonts/candy_beans/candy_beans.otf);
+    font-family: candyBeans;
+    src: url(../assets/fonts/candy_beans/candy_beans.otf);
 }
 
 body {
